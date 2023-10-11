@@ -1,0 +1,38 @@
+Module	Number of bits	1	8	32	64	128	256	1024
+Timer/Counter0	8	16u	128u	512u	1.024m	2.048m	4.096m	16.384m
+Timer/Counter1	16	4.096m	32.768m	0.131s	0.262s	0.524s	1.049s	4.194s
+Timer/Counter2	8	16u	128u	512u	1.024m	2.048m	4.096m	16.384m			
+
+
+
+
+Module	  	Operation	     I/O register(s)	      Bit(s)
+Timer/Counter0	Prescaler					CS02,CS01,CS00
+
+		8-bit data value
+		Overflow interrupt enable	
+
+
+
+
+
+Timer/Counter1	Prescaler
+
+		16-bit data value
+		Overflow interrupt enable	TCCR1B
+
+						TCNT1H, TCNT1L
+						TIMSK1			CS12, CS11, CS10
+									(000: stopped, 001: 1, 010: 8, 011: 64, 100: 256, 101: 1024)
+									TCNT1[15:0]
+									TOIE1 (1: enable, 0: disable)
+Timer/Counter2	Prescaler
+
+		8-bit data value
+		Overflow interrupt enable	
+
+
+
+
+
+			
