@@ -1,4 +1,24 @@
+/***********************************************************************
+ * Smart plant watering system and data logger
+ * 
+ * ATmega328P (Arduino Uno), 16 MHz, PlatformIO
+ *
+ * NOTE:
+ * This code was created as a school project for Digital Electronics 2
+ *   
+ **********************************************************************/
 
+
+// Settings for main page of Doxygen manual
+/**
+ * @mainpage
+ * 
+ * Smart plant watering system and data logger school project for DE2
+ * 
+ * @author Jakub Fojtik, Michal Lexa, Jan Socha, Tomas Fryza, Peter Fleury
+ * @copyright (c) 2023 Jakub Fojtik, Michal Lexa, Jan Socha, 
+ *              This work is licensed under  the terms of the MIT license
+ */
 
 /* Defines -----------------------------------------------------------*/
 #ifndef F_CPU
